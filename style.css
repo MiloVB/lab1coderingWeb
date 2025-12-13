@@ -1,0 +1,354 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffff;
+  --beige: #F3E8D2;
+  --blue: #7FA8A0;
+  --red: #C97E63;
+  --green: #8E8C6F;
+  --brown: #B6A188;
+  --radius: 16px;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav img {
+  height: 32px;
+}
+
+nav a {
+  display: none; 
+  text-decoration: none;
+  color: var(--dark);
+}
+
+
+header {
+  
+  background-color: var(--green);
+  color: var(--beige);
+  padding: 1.5rem;
+}
+
+header img {
+  width: 100%;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+
+header h2 {
+  font-family: Libre Baskerville;
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+header p {
+  font-family: Agrandir;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Libre Baskerville;
+  display: inline-block;
+  background-color: var(--beige);
+  color: var(--green);
+  padding: 0.75rem 1.25rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+main section {
+  color: var(--green);
+  padding: 2rem 1.5rem;
+}
+
+section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+section p {
+  color: var(--green);
+  margin-bottom: 1rem;
+}
+
+
+#Main_1_Vertrouwen_Img_1En2 {
+  display: flex;
+  align-items: bottem;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem; 
+}
+
+#interior{
+  padding-top: 3.4em;
+}
+
+#Main_1_Vertrouwen_Img_3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+#Main_1_Vertrouwen h3, p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#Main_1_Vertrouwen_Check1 img{
+  max-width: 9%;
+}
+
+#Main_1_Vertrouwen_Check2 img{
+  max-width: 9%;
+}
+
+#Main_1_Vertrouwen_Check3 img{
+  max-width: 9%;
+}
+
+#Main_1_Vertrouwen_Check4 img{
+  max-width: 9%;
+}
+
+#Main_1_Vertrouwen_Check1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#Main_1_Vertrouwen_Check2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#Main_1_Vertrouwen_Check3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#Main_1_Vertrouwen_Check4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+} 
+
+#Main_1_Vertrouwen a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Libre Baskerville;
+  display: inline-block;
+  background-color: var(--beige);
+  color: var(--green);
+  padding: 0.75rem 1.25rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#Main_2_Rust{
+  background-color: var(--green);
+}
+
+
+
+
+#Main_2_Rust h3{
+  color: beige;
+  text-align: center;
+}
+
+
+#Main_2_Rust p{
+  color: beige;
+  text-align: center;
+}
+
+
+#Main_2_Statestieken_1{
+  display: flex;
+  flex-direction: column;
+}
+#Main_2_Statestieken_2{
+  display: flex;
+  flex-direction: column;
+}#Main_2_Statestieken_3{
+  display: flex;
+  flex-direction: column;
+}
+#Main_2_Statestieken_4{
+  display: flex;
+  flex-direction: column;
+}
+
+#Main_2_Statestieken {
+  display: flex;
+  flex-direction: row;
+
+  background: var(--beige);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#Main_2_Statestieken h4 {
+  font-size: 1rem;
+  color: var(--green);
+
+}
+
+#Main_2_Statestieken p {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+#Main_2_Statestieken p, h4{
+  text-align: center;
+}
+
+#Main_2_img{
+  background-color: gray;
+  width: 100%;
+  height: 15em;
+  display: flex;
+  align-items: flex-end;
+}
+
+#Main_2_RestingGirl{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+#Main_2_RestingGirl img {
+  width: 100%;
+  border-radius: var(--radius);
+  transform: scaleX(-1);
+  max-width: 30%;
+}
+
+
+#Main_3_pijlers {
+  background: var(--white);
+  border-radius: var(--radius);
+  margin: 0 1.5rem;
+  text-align: center;
+}
+
+#Main_3_pijlers p {
+  background: var(--white);
+  margin: 0.5rem 0;
+  padding: 0.35rem;
+  border-radius: 999px;
+  font-weight: 500;
+  }
+
+#pijlers_1-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+#Main_4_RustEnFocus {
+  background: var(--green);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#Main_4_RustEnFocus a {
+  text-decoration: none;
+  color: var(--green);
+  font-weight: 600;
+}
+
+#Main_4_div1{
+  background-color: var(--beige);
+  color: var(--green);
+}
+
+#Main_4_div2{
+  background-color: var(--beige);
+  color: var(--green);
+}
+#Main_4_div3{
+  background-color: var(--beige);
+  color: var(--green);
+}
+
+
+#img{
+  background-color: gray;
+  width: 100%;
+  height: 15em;
+  padding-top: 1em;
+}
+
+#main_5_loom > div {
+  background: white;
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#main_5_div2_titel_- {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main_5_div3_+ h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer {
+  background: var(--bg-soft);
+  padding: 2rem 1.5rem;
+}
+
+footer h3,
+footer h4 {
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  color: var(--muted);
+}
