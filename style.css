@@ -34,10 +34,14 @@ body {
   }
 
 
+  #butten_a{
+    display: none;
+  }
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between ;
   padding: 1rem;
 }
 
@@ -607,6 +611,26 @@ footer {
     display: none;
   }
 
+  #butten_a{
+    display: contents;
+    
+  }
+
+  #butten_a a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Libre Baskerville;
+    display: inline-block;
+    background-color: var(--beige);
+    color: var(--green);
+    padding: 0.75rem 1.25rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+
+  }
+
   #teblet_nav{
     display: contents;
   }
@@ -828,5 +852,8 @@ footer {
 }
 
 @media(min-width: 1024px){
-
+  
+  #teblet_nav li{
+    font-size: 1.5em;
+  }
 }
