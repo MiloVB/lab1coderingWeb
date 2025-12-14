@@ -75,7 +75,6 @@ li a{
 
 
 header {
-  
   background-color: var(--green);
   border-radius: var(--radius);
   color: var(--beige);
@@ -580,5 +579,88 @@ footer {
 #footer_icon_3{ 
   padding-top: 1em;
   padding-left: 1em;
+
+}
+
+@media(min-width: 768px) {
+  main section{
+    padding: 3em 4em;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+    align-items: center;
+    padding: 1em;
+  }
+
+  #header_tekst{
+    display: flex;
+    flex-direction: column;
+  }
+
+  header img{
+    max-width: 40%;
+    margin-bottom: 0;
+  }
+
+  header h2{
+    font-size: 2em;
+  }
+
+  header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    max-width: 30%;
+  }
+
+
+  #Main_1_Vertrouwen_Check1{
+    justify-content: start;
+  }
+
+  #Main_1_Vertrouwen_Check2{
+    justify-content: start;
+  }
+  #Main_1_Vertrouwen_Check3{
+    justify-content: start;
+  }
+  #Main_1_Vertrouwen_Check4{
+    justify-content: start;
+  }
+
+  #Main_1_Vertrouwen{
+    text-align: center;
+    justify-content: start;
+  }
+
+  #Main_1_Vertrouwen p{
+    text-align: center;
+    justify-content: start;
+  }
+
+
+  #main_1_media{
+    display: flex;
+    padding: 1em;
+    gap: 2em;
+  }
+
+
+  #main_1_media_img{
+    padding-top: 3em;
+  }
+
+
+  #main_1_media_check p, h3{
+    text-align: left;
+  }
+
+
+  
 
 }
