@@ -306,6 +306,10 @@ section p {
 }
 
 
+  #Main_3_pijlers_media{
+    display: none;
+  }
+
 #Main_3_pijlers {
   background: var(--white);
   border-radius: var(--radius);
@@ -323,7 +327,7 @@ section p {
 
 #pijlers_1-5{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 0.5em;
 }
@@ -661,6 +665,31 @@ footer {
   }
 
 
+  #Main_3_pijlers h3{
+    text-align: center;
+  }
+
+  #Main_3_pijlers{
+    display: none;
+  }
+
+
+  #Main_3_pijlers_media{
+    display: contents;
+
+  }
+
+  #Main_3_pijlers_media h3{
+    text-align: center;
+    padding-top: 4em;
+  }
   
 
+  #pijlers_1-5_media{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+    padding-bottom: 4em;
+  }
 }
